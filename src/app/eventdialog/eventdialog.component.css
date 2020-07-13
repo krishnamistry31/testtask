@@ -1,0 +1,37 @@
+h1{
+    margin:5px;
+    font-size:30px;
+    font-weight:500;
+}
+h2{
+    margin:10px;
+    color:#a6a6a6;
+}
+div.polaroid {
+  width: 60%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  margin-left:auto;
+  margin-right:auto;
+}
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+.one-bullet{
+    margin:20px;
+    padding:20px;
+}
+span{
+    background-color:#999999;
+    padding:15px;
+    color:white;
+}
+span.first{
+    border-radius:10px 0px 0px 10px;
+    background-color:#595959;
+}
+span.last{
+    border-radius:0px 10px 10px 0px;
+}

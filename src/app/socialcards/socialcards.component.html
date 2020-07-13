@@ -1,0 +1,45 @@
+<mat-card class="example-card" style="background-color:#f2f2f2">
+  <mat-card-header style="padding:10px">
+    <mat-card-title>Socials</mat-card-title>
+  </mat-card-header>
+  <img mat-card-image src="assets\images\image.jpg" alt="Not available" height="350px">
+  <mat-card-actions>
+    <mat-accordion>
+      <mat-expansion-panel style="background-color:#f2f2f2">
+        <mat-expansion-panel-header>
+          <mat-panel-title> 
+            <mat-chip-list>
+              <mat-chip color="primary">Indian</mat-chip>
+              <mat-chip color="primary">Dance</mat-chip>
+              <mat-chip color="primary">Bollywood</mat-chip>
+            </mat-chip-list>
+          </mat-panel-title>
+        </mat-expansion-panel-header>
+          <mat-card style="height:40px" (click)="dialog(1)">
+            <mat-card-header>
+              <mat-icon>local_bar</mat-icon>
+              <mat-card-title-group style="margin-left:20px">
+                <mat-card-title>HAPPY HOUR</mat-card-title>
+                <mat-card-subtitle>OFFER </mat-card-subtitle>
+                <mat-chip-list style="margin-left:70px">
+                  <mat-chip color="primary" (click)="dialog(1)">09:00 PM</mat-chip>
+                </mat-chip-list>
+              </mat-card-title-group>
+            </mat-card-header>
+          </mat-card>
+          <mat-card style="height:40px;margin-top:10px" (click)="dialog(2)">
+            <mat-card-header>
+              <mat-icon>event_available</mat-icon>
+              <mat-card-title-group style="margin-left:20px">
+                <mat-card-title>COMEDY NIGHT</mat-card-title>
+                <mat-card-subtitle>EVENT </mat-card-subtitle>
+                <mat-chip-list style="margin-left:50px">
+                  <mat-chip color="primary" (click)="dialog(2)">09:00 PM</mat-chip>
+                </mat-chip-list>
+              </mat-card-title-group>
+            </mat-card-header>
+          </mat-card>
+      </mat-expansion-panel>
+    </mat-accordion>  
+  </mat-card-actions>
+</mat-card>

@@ -1,0 +1,21 @@
+<div style="text-align:center;height:auto">
+    <h2>{{msg2}}</h2>
+    <div class="polaroid">
+        <img [src]='imagename' alt="No image" width="150px" height="150px">
+        <div class="container">
+            <h1>{{msg}}</h1>
+        </div>
+    </div>
+    <div class="one-bullet">
+        <span class="first"> SAT</span>
+        <span> 23rd JULY</span>
+        <span class="last"> 09:00 PM</span>
+    </div>
+    <div *ngIf="displaybarcode">
+        <img src="assets/images/barcode.png" style="border:2px solid black" alt="No image" width="350px" height="130px">
+    </div>
+    <div mat-dialog-actions>
+        <button mat-raised-button (click)="close()">CLOSE</button>
+        <button mat-raised-button *ngIf="!displaybarcode" (click)="redeem()">REDEEM</button>
+    </div>
+</div>
