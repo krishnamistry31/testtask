@@ -1,6 +1,7 @@
 # Rentbazz
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.0.
+This project is build using angular material. So, before running this app, do "ng add @angular/material".
 
 ## Development server
 
